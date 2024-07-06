@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+  </head>
+ 
+  <body>
+    <header id="navbar" class="navbar">
+      <nav class="navbar-wrapper">
+        <nav class="logo">
+          <a class="logo-img" href="/">Exp<span class="extra">Tra</span></a>
+        </nav>
+        <nav class="navbar-link">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a href="/" class="navbar__link">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/add_expense.html" class="navbar__link">Add Expense</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/edit_expense.html" class="navbar__link">Edit Expense</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/view_expense.html" class="navbar__link">View Expense</a>
+            </li>
+          </ul>
+        </nav>
+  
+        <nav class="navbar-btn">
+          <ul class="navbar-btn-list">
+            <li class="navbar-btn-register">
+              <a href="/register.html" class="register">Register</a>
+            </li>
+            <li class="'navbar-btn-login">
+              <a href="/login.html" class="login">Login</a>
+            </li>
+          </ul>
+          <!--      <nav id="menu">
+          <img src="/images/menu.svg" alt="menu" class="menu_open">
+        </nav> -->
+        </nav>
+      </nav>
+    </header>
+    <!-- Login Form -->
+    <section id="login_form" class="login_section">
+      <div class="login__section-container login__section-content">
+        <div class="login__section-content login__left-column "></div>
+        <div class="login__section-content login__right-column">
+            <h2 class="login__title">Hello Again!</h2>
+            <p class="login_text">Aliquam  et tincidunt praesent enim  massa pellentesque velit odio neque</p>
+          <form  class="form" method="POST">
+         <div class="form__details">
+            <label class="input__text-label" for="username">Username</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              class="input__text"
+              required
+            /><br /><br />
+          </div>
+           <div class="form__details">
+            <label class="input__text-label" for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="input__text"
+              
+              required
+            /><br /><br />
+          </div>
+            <input class="submit" type="submit" value="Login" />
+          </form>
+
+          <p>
+            Don't have an account? <a class="form__register" href="/register.html">Register here</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__section footer__navigation">
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="/add_expense.html">Add Expense</a></li>
+            <li><a href="/edit_expense.html">Edit Expense</a></li>
+            <li><a href="/view_expense.html">View Expense</a></li>
+          </ul>
+        </div>
+        <div class="footer__section footer__trusted">
+          <h3>Trusted</h3>
+          <ul>
+            <li>Services</li>
+            <li>Projects</li>
+          </ul>
+        </div>
+        <div class="footer__section footer__social">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>
+              <a href="#"><img src="/images/facebook.svg" alt="Facebook" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/images/twitter.svg" alt="Twitter" /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="/images/instagram.svg" alt="Instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__section footer__contact">
+          <h3>Contact Us</h3>
+          <p>Email: support@example.com</p>
+          <p>Phone: (123) 456-7890</p>
+        </div>
+      </div>
+      <div class="footer_copyright">
+        <h4>Copyright © All right reserved -| 2024</h4>
+        <span class="footer_faint"
+          >Built with love by James Kamau A.K.A Hanzo</span
+        >
+      </div>
+    </footer>
+  </body>
+</html>

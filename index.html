@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Expense Tracker</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header id="navbar" class="navbar">
+      <nav class="navbar-wrapper">
+        <nav class="logo">
+          <a class="logo-img" href="/">Exp<span class="extra">Tra</span></a>
+        </nav>
+        <nav class="navbar-link">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a href="/" class="navbar__link">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/add_expense.html" class="navbar__link">Add Expense</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/edit_expense.html" class="navbar__link">Edit Expense</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/view_expense.html" class="navbar__link">View Expense</a>
+            </li>
+          </ul>
+        </nav>
+  
+        <nav class="navbar-btn">
+          <ul class="navbar-btn-list">
+            <li class="navbar-btn-register">
+              <a href="/register.html" class="register">Register</a>
+            </li>
+            <li class="'navbar-btn-login">
+              <a href="/login.html" class="login">Login</a>
+            </li>
+          </ul>
+          <!--      <nav id="menu">
+          <img src="/images/menu.svg" alt="menu" class="menu_open">
+        </nav> -->
+        </nav>
+      </nav>
+    </header>
+  
+  <!-- Main Content -->
+    <section id="main_container" class="main_container">
+      <div class="main_container-wrapper">
+        <div class="wrapper_left">
+          <h1 class="wrapper_left-title">
+            Manage Your Expenses Easily With Exp<span class="extra">Tra</span>
+          </h1>
+          <p>
+            Track your expenses, set budgets, and monitor your spending habits
+            with ease. Simplify your financial management and eliminate the
+            hassle of remembering every expense. Stay organized and in control
+            of your finances effortlessly.
+          </p>
+
+          <div class="navigation_btn">
+            <nav id="btn_login">
+              <a class="btn_login" href="/login.html">Let's Talk</a>
+            </nav>
+            <nav id="btn_demo"><a class="btn_demo" href="#"> View Demo</a></nav>
+          </div>
+        </div>
+        <div class="wrapper_right"></div>
+      </div>
+      <div></div>
+    </section>
+  <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__section footer__navigation">
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="/add_expense.html">Add Expense</a></li>
+            <li><a href="/edit_expense.html">Edit Expense</a></li>
+            <li><a href="/view_expense.html">View Expense</a></li>
+          </ul>
+        </div>
+        <div class="footer__section footer__trusted">
+          <h3>Trusted</h3>
+          <ul>
+            <li>Services</li>
+            <li>Projects</li>
+          </ul>
+        </div>
+        <div class="footer__section footer__social">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="/images/facebook.svg" alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="/images/twitter.svg" alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="/images/instagram.svg" alt="Instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__section footer__contact">
+          <h3>Contact Us</h3>
+          <p>Email: support@example.com</p>
+          <p>Phone: (123) 456-7890</p>
+        </div>
+      </div>
+      <div class="footer_copyright">
+        <h4>Copyright © All right reserved -| 2024</h4>
+        <span class="footer_faint"
+          >Built with love by James Kamau A.K.A Hanzo</span
+        >
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

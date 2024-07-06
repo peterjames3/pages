@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>view expense</title>
+</head>
+<body>
+
+    <header id="navbar" class="navbar">
+        <nav class="navbar-wrapper">
+          <nav class="logo">
+            <a class="logo-img" href="/">Exp<span class="extra">Tra</span></a>
+          </nav>
+          <nav class="navbar-link">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a href="/" class="navbar__link">Home</a>
+              </li>
+              <li class="navbar__item">
+                <a href="/add_expense.html" class="navbar__link">Add Expense</a>
+              </li>
+              <li class="navbar__item">
+                <a href="/edit_expense.html" class="navbar__link">Edit Expense</a>
+              </li>
+              <li class="navbar__item">
+                <a href="/view_expense.html" class="navbar__link">View Expense</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <nav class="navbar-btn">
+            <ul class="navbar-btn-list">
+              <li class="navbar-btn-register">
+                <a href="/register.html" class="register">Register</a>
+              </li>
+              <li class="'navbar-btn-login">
+                <a href="/login.html" class="login">Login</a>
+              </li>
+            </ul>
+            <!--      <nav id="menu">
+              <img src="/images/menu.svg" alt="menu" class="menu_open">
+            </nav> -->
+          </nav>
+        </nav>
+      </header>
+     
+    <section class="view-expense">
+      <div class="view-expense__container">
+          <h2 class="view-expense__title">Expenses</h2>
+          <table class="view-expense__table">
+              <thead>
+                  <tr>
+                      <th class="view-expense__header">Date</th>
+                      <th class="view-expense__header">Description</th>
+                      <th class="view-expense__header">Amount</th>
+                      <th class="view-expense__header">Category</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr class="view-expense__row">
+                      <td class="view-expense__data">2024-01-01</td>
+                      <td class="view-expense__data">Groceries</td>
+                      <td class="view-expense__data">$100.00</td>
+                      <td class="view-expense__data">Food</td>
+                  </tr>
+                  <tr class="view-expense__row">
+                      <td class="view-expense__data">2024-01-02</td>
+                      <td class="view-expense__data">Utilities</td>
+                      <td class="view-expense__data">$200.00</td>
+                      <td class="view-expense__data">Bills</td>
+                  </tr>
+                  <tr class="view-expense__row">
+                      <td class="view-expense__data">2024-01-03</td>
+                      <td class="view-expense__data">Rent</td>
+                      <td class="view-expense__data">$1200.00</td>
+                      <td class="view-expense__data">Housing</td>
+                  </tr>
+                  <tr class="view-expense__row">
+                      <td class="view-expense__data">2024-01-04</td>
+                      <td class="view-expense__data">Internet</td>
+                      <td class="view-expense__data">$60.00</td>
+                      <td class="view-expense__data">Utilities</td>
+                  </tr>
+                  <tr class="view-expense__row">
+                      <td class="view-expense__data">2024-01-05</td>
+                      <td class="view-expense__data">Transport</td>
+                      <td class="view-expense__data">$50.00</td>
+                      <td class="view-expense__data">Travel</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </section>
+
+
+     <!--Footer-->
+     <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__section footer__navigation">
+            <h3>Navigation</h3>
+            <ul>
+              <li><a href="/add_expense.html">Add Expense</a></li>
+              <li><a href="/edit_expense.html">Edit Expense</a></li>
+              <li><a href="/view_expense.html">View Expense</a></li>
+            </ul>
+          </div>
+          <div class="footer__section footer__trusted">
+            <h3>Trusted</h3>
+            <ul>
+              <li>Services</li>
+              <li>Projects</li>
+            </ul>
+          </div>
+          <div class="footer__section footer__social">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>
+                <a href="#"><img src="/images/facebook.svg" alt="Facebook" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="/images/twitter.svg" alt="Twitter" /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="/images/instagram.svg" alt="Instagram"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__section footer__contact">
+            <h3>Contact Us</h3>
+            <p>Email: support@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+          </div>
+        </div>
+        <div class="footer_copyright">
+          <h4>Copyright © All right reserved -| 2024</h4>
+          <span class="footer_faint"
+            >Built with love by James Kamau A.K.A Hanzo</span
+          >
+        </div>
+      </footer>
+    
+</body>
+</html>
